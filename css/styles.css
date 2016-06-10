@@ -1,4 +1,6 @@
-
+* {
+    box-sizing: border-box;
+}
 
 html, body {
 	padding: 0px;
@@ -11,22 +13,36 @@ header li {
 }
 
 
-header a {
-
-	text-decoration: none !important;
-	font-family: 'Indie Flower', cursive;
-	padding: 10px 50px 0px;
-	margin: 0px;
+a.logo1 {
+	text-decoration: none;
+	border: 0;
+	width : 60px;
+	height: 60px;
+	margin: 0;
+	padding: 0;
+	background: url(../img/logo1.jpg) no-repeat 0 0;
+	border: none;
 	float: left;
-	background-color: #36454F;
-	color: #f4f3f3;
-	padding-bottom: 7px;
+
+
 }
 
-.logo {
-	font-size: 16px;
-	/*padding: 10px 50px 0px 25px;*/
-
+a.banner {
+	width: 11.33%;
+	float: right;
+	max-width: 150px;
+	text-align: center;
+	text-decoration: none !important;
+	font-family: 'Indie Flower', cursive;
+	padding: 0px 0px 0px;
+	margin: 0px;
+	
+	/*background-color: dimgrey;*/
+	color: dimgrey;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	/*border-style: solid;
+    border-width: 2px;*/
 }
 
 ul {
@@ -35,14 +51,16 @@ ul {
 }
 
 
+
+
 header {
 	width: 100%;
-	background-color: #36454F;
-	position: absolute;
+	/*background-color: #36454F;*/
+	position: fixed;
 }
 
 body {
-	background-image: url('../img/jar.jpg');
+	/*background-image: url('../img/jar.jpg');
 	background-repeat:no-repeat;
-	background-size: cover;
+	background-size: cover;*/
 }
