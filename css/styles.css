@@ -49,6 +49,22 @@ ul {
 
 header {
 	width: 100%;
-
 	position: fixed;
 }
+
+.Intro {
+	font-weight: lighter;
+	font-size: 26px;
+    line-height: 40px;
+	font-family: 'Rock Salt', cursive;
+	display: block;
+	float: left;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 170px;
+}
+
+h6 {
+	font-weight: lighter;
+}
+	
